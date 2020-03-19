@@ -1,0 +1,10 @@
+<%= form_for @profile do |f| %>
+	<span>New profile:</span>
+	First name: <%= f.text_field :firstname %>
+    Last name: <%= f.text_field :lastname %>
+	Gender: <%= f.text_field :gender %>
+    Date of Birth: <%= f.text_field :dob %>
+	Phone number: <%= f.text_field :phonenumber %>
+    Country: <%= f.text_field :country %>
+	<%= f.submit %>	
+<% end %>
